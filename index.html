@@ -1,163 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Bento</title>
-        <link rel=" shortcut icon" type="image/png" href="icons/favicon.png" />
+<head>
+    <meta charset="UTF-8"/>
+    <title>Bento</title>
+    <link rel=" shortcut icon" type="image/png" href="icons/favicon.png"/>
 
-        <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css"/>
 
-        <script src="js/feather.min.js"></script>
-    </head>
-    <body class="">
-        <button id="themeButton"><i id="bicon" data-feather="moon"></i></button>
-        <div class="container">
-            <div class="fblock">
-                <div class="clock">
-                    <div id="hour" class=""></div>
-                    <div id="separator" class=""></div>
-                    <div id="minutes" class=""></div>
-                </div>
-                <div id="greetings" class=""></div>
+    <script src="js/feather.min.js"></script>
+</head>
+<body class="">
+<button id="themeButton"><i id="bicon" data-feather="moon"></i></button>
+<div class="container">
+    <div class="fblock">
+        <div class="clock">
+            <div id="hour" class=""></div>
+            <div id="separator" class=""></div>
+            <div id="minutes" class=""></div>
+        </div>
+        <div id="greetings" class=""></div>
+    </div>
+    <div class="sblock">
+        <div class="sblock__date">
+            <div id="month" class=""></div>
+            <div id="day" class=""></div>
+        </div>
+        <div class="sblock__weather">
+            <div class="weather-icon">
+                <img src="icons/OneDark/unknown.png"/>
             </div>
-            <div class="sblock">
-                <div class="sblock__date">
-                    <div id="month" class=""></div>
-                    <div id="day" class=""></div>
-                </div>
-                <div class="sblock__weather">
-                    <div class="weather-icon">
-                        <img src="icons/OneDark/unknown.png" />
-                    </div>
-                    <div class="temperature-value">
-                        <p class="">- °<span class="g">c</span></p>
-                    </div>
-                    <div class="temperature-description">
-                        <p class=""></p>
-                    </div>
-                </div>
+            <div class="temperature-value">
+                <p class="">- °<span class="g">c</span></p>
             </div>
-            <div class="qlink">
-                <a
-                    href="https://github.com/"
-                    target="blank"
-                    class="qlink__link qlink__link-1"
-                >
-                    <i class="qlink__icon" data-feather="github"></i>
-                </a>
-                <a
-                    target="blank"
-                    href="https://beta.protonmail.com/u/0/inbox"
-                    class="qlink__link qlink__link-2"
-                >
-                    <i class="qlink__icon" data-feather="mail"></i>
-                </a>
-                <a
-                    target="blank"
-                    href="https://calendar.google.com/calendar/r"
-                    class="qlink__link qlink__link-3"
-                >
-                    <i class="qlink__icon" data-feather="calendar"></i>
-                </a>
-                <a
-                    target="blank"
-                    href="https://vim.rtorr.com/"
-                    class="qlink__link qlink__link-4"
-                >
-                    <i class="qlink__icon" data-feather="book"></i>
-                </a>
-                <a
-                    href="https://informatica.i-learn.unito.it/"
-                    target="blank"
-                    class="qlink__link qlink__link-5"
-                >
-                    <i class="qlink__icon" data-feather="hard-drive"></i>
-                </a>
-                <a
-                    target="blank"
-                    href="https://www.youtube.com/"
-                    class="qlink__link qlink__link-6"
-                >
-                    <i class="qlink__icon" data-feather="youtube"></i>
-                </a>
-            </div>
-
-            <div class="card qlist qlist__1">
-                <i class="qlist__head" data-feather="list"></i>
-                <a
-                    target="blank"
-                    href="https://www.nvidia.com/Download/index.aspx?lang=en-us"
-                    class="qlist__link"
-                    >Nvidia Drivers</a
-                >
-                <a
-                    target="blank"
-                    href="https://www.kernel.org/"
-                    class="qlist__link"
-                    >The Kernel Archives</a
-                >
-                <a
-                    target="blank"
-                    href="https://arcolinux.com/"
-                    class="qlist__link"
-                    >ArcoLinux News</a
-                >
-                <a
-                    target="blank"
-                    href="http://it.gigabyte.com/products/page/mb/b450_aorus_prorev_10#support-dl"
-                    class="qlist__link"
-                    >BIOS Update</a
-                >
-                <a
-                    target="blank"
-                    href="https://www.nordtheme.com/"
-                    class="qlist__link"
-                    >Nord Theme</a
-                >
-            </div>
-
-            <div class="card qlist qlist__2">
-                <i class="qlist__head" data-feather="coffee"></i>
-                <a
-                    href="https://photos.google.com/"
-                    target="blank"
-                    class="qlist__link"
-                    >Photos</a
-                >
-                <a
-                    href="https://dashboard.heroku.com/apps"
-                    target="blank"
-                    class="qlist__link"
-                    >Heroku</a
-                >
-                <a
-                    href="https://sci-hub.se/"
-                    target="blank"
-                    class="qlist__link"
-                    >Sci-Hub</a
-                >
-                <a
-                    href="https://techgaun.github.io/active-forks/index.html"
-                    target="blank"
-                    class="qlist__link"
-                    >GitHub Forks</a
-                >
-                <a
-                    href="https://aur.archlinux.org/"
-                    target="blank"
-                    class="qlist__link"
-                    >AUR Packages</a
-                >
+            <div class="temperature-description">
+                <p class=""></p>
             </div>
         </div>
-        <script src="js/time.js"></script>
-        <script src="js/theme.js"></script>
-        <script src="js/greeting.js"></script>
-        <script src="js/weather.js"></script>
-        <script>
-            feather.replace();
-        </script>
-    </body>
+    </div>
+    <div class="qlink">
+        <a
+                href="https://github.com/"
+                target="blank"
+                class="qlink__link qlink__link-1"
+        >
+            <i class="qlink__icon" data-feather="github"></i>
+        </a>
+        <a
+                target="blank"
+                href="https://beta.protonmail.com/u/0/inbox"
+                class="qlink__link qlink__link-2"
+        >
+            <i class="qlink__icon" data-feather="mail"></i>
+        </a>
+        <a
+                target="blank"
+                href="https://calendar.google.com/calendar/r"
+                class="qlink__link qlink__link-3"
+        >
+            <i class="qlink__icon" data-feather="calendar"></i>
+        </a>
+        <a
+                target="blank"
+                href="https://vim.rtorr.com/"
+                class="qlink__link qlink__link-4"
+        >
+            <i class="qlink__icon" data-feather="book"></i>
+        </a>
+        <a
+                href="https://informatica.i-learn.unito.it/"
+                target="blank"
+                class="qlink__link qlink__link-5"
+        >
+            <i class="qlink__icon" data-feather="hard-drive"></i>
+        </a>
+        <a
+                target="blank"
+                href="https://www.youtube.com/"
+                class="qlink__link qlink__link-6"
+        >
+            <i class="qlink__icon" data-feather="youtube"></i>
+        </a>
+    </div>
 
-    <!-- Coded and designed by Miguel R. Ávila: https://github.com/MiguelRAvila -->
+    <div class="card qlist qlist__1">
+        <i class="qlist__head" data-feather="list"></i>
+        <a
+                target="blank"
+                href="https://www.nvidia.com/Download/index.aspx?lang=en-us"
+                class="qlist__link"
+        >Nvidia Drivers</a
+        >
+        <a
+                target="blank"
+                href="https://www.kernel.org/"
+                class="qlist__link"
+        >The Kernel Archives</a
+        >
+        <a
+                target="blank"
+                href="https://arcolinux.com/"
+                class="qlist__link"
+        >ArcoLinux News</a
+        >
+        <a
+                target="blank"
+                href="http://it.gigabyte.com/products/page/mb/b450_aorus_prorev_10#support-dl"
+                class="qlist__link"
+        >BIOS Update</a
+        >
+        <a
+                target="blank"
+                href="https://www.nordtheme.com/"
+                class="qlist__link"
+        >Nord Theme</a
+        >
+    </div>
+
+    <div class="card qlist qlist__2">
+        <i class="qlist__head" data-feather="coffee"></i>
+        <a
+                href="https://photos.google.com/"
+                target="blank"
+                class="qlist__link"
+        >Photos</a
+        >
+        <a
+                href="https://dashboard.heroku.com/apps"
+                target="blank"
+                class="qlist__link"
+        >Heroku</a
+        >
+        <a
+                href="https://sci-hub.se/"
+                target="blank"
+                class="qlist__link"
+        >Sci-Hub</a
+        >
+        <a
+                href="https://techgaun.github.io/active-forks/index.html"
+                target="blank"
+                class="qlist__link"
+        >GitHub Forks</a
+        >
+        <a
+                href="https://aur.archlinux.org/"
+                target="blank"
+                class="qlist__link"
+        >AUR Packages</a
+        >
+    </div>
+</div>
+<script src="js/time.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/greeting.js"></script>
+<script src="js/weather.js"></script>
+<script>
+    feather.replace();
+</script>
+</body>
+
+<!-- Coded and designed by Miguel R. Ávila: https://github.com/MiguelRAvila -->
 </html>

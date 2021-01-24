@@ -36,6 +36,7 @@ $bp-smallest: 31.25em;
     --fss: 20px;
   }
 }
+
 .darktheme {
   --accent: #186efd60;
 
@@ -92,6 +93,7 @@ body {
   width: 26px;
   height: 26px;
 }
+
 .container {
   width: 150vh;
   height: 85vh;
@@ -153,6 +155,7 @@ body {
     justify-content: center;
     margin-top: 30px;
   }
+
   &__weather {
     display: flex;
     align-items: center;
@@ -184,6 +187,7 @@ body {
   font-weight: bold;
   color: var(--fg);
 }
+
 #day {
   margin-left: 20px;
 }
@@ -209,6 +213,7 @@ body {
     margin-left: 15px;
     color: var(--fg);
   }
+
   &-description p {
     font-size: var(--fss);
     margin-left: 15px;
@@ -249,26 +254,32 @@ body {
     width: 100%;
     box-shadow: 0 5px 7px rgba(#000000, 0.35);
     border-radius: 5px;
+
     &-1 {
       grid-row: 1;
       grid-column: 1;
     }
+
     &-2 {
       grid-row: 1;
       grid-column: 2;
     }
+
     &-3 {
       grid-row: 2;
       grid-column: 1;
     }
+
     &-4 {
       grid-row: 2;
       grid-column: 2;
     }
+
     &-5 {
       grid-row: 1;
       grid-column: 3;
     }
+
     &-6 {
       grid-row: 2;
       grid-column: 3;
@@ -300,10 +311,12 @@ body {
     grid-column: 3;
     grid-row: 3 / span 2;
   }
+
   &__2 {
     grid-column: 4;
     grid-row: 3 / span 2;
   }
+
   &__head {
     margin-top: 30px;
     margin-bottom: 20px;
@@ -311,6 +324,7 @@ body {
     color: var(--fg);
     height: 30px;
   }
+
   &__link {
     text-decoration: none;
     font-size: var(--fses);
